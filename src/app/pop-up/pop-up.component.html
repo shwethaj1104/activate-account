@@ -1,0 +1,33 @@
+<div class="container">
+    <header class="header">
+        <h4>Please enter your details below</h4>
+        <button class="btn-close">Close</button>
+    </header>
+    <form [formGroup]="form" class="my-form">
+        <label class="textLine" for="phone">Phone Number</label>
+        <div class="child-grid">
+        <input  class="valueline" formControlName="phone" type="telephone" id="phone" name="phone"
+            (keyup)="inputChangePhone($event)">
+            <span *ngIf="phonenumber" > &check;</span>
+        </div>
+        <!-- <div class="child-grid"> -->
+            <label class="textLine" for="pan">PAN Card Number</label>
+            <input  class="valueline" formControlName="pan" type="text" id="pan"
+                name="pan">
+        <!-- </div> -->
+        <!-- <div class="child-grid"> -->
+            <label class="textLine" for="name">Name as in PAN card</label>
+            <input  class="valueline" formControlName="name" type="text" id="authCode" name="name">
+        <!-- </div> -->
+        <label class="textLine" for="email">Email</label>
+        <div class="child-grid">
+            <input  class="valueline" formControlName="email" type="email" id="email"
+                name="email" (keyup)="inputChangeemail($event)">
+                <span *ngIf="emailid">&check;</span>
+        </div>
+    </form>
+    <div class="btn">
+        <button class="btn-cancel" (click)="activate()">Cancel</button>
+        <button class="btn-activate" (click)="activate()">Activate Now</button>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+
+.container{
+    padding: 1rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.my-form{
+    display: grid;
+}
+.btn-close{
+    color: white;
+    background: black;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 5rem;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: gray;
+    margin-bottom: 1.3rem;
+}
+label{
+    color: gray;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-activate{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 9rem;
+    font-size: medium;
+    border: none;
+    background:#3acf9f;
+    font-weight: 600;
+    color: white;
+
+}
+.btn-cancel{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 9rem;
+    font-size: medium;
+    border: none;
+    background:#00000087;
+    font-weight: 600;
+    color: white;
+}
+
+.child-grid{
+    display: grid;
+    grid-template-columns: 21fr 1fr;
+    gap: 0.5rem;
+}
+span{
+    background: green;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    padding-left: 0.6rem;
+    font-weight: bolder;
+}
