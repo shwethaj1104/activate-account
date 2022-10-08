@@ -89,3 +89,15 @@ h1,p{
     background: white;
     font-weight: 600;
 }
+span{
+    background: white;
+    border-radius: 50%;
+    height: 2rem;
+    width: 3rem;
+    color: black;
+    font-weight: bolder;
+    padding-left: 0.7rem;
+    color: #cf0064;
+    padding-top: 0.2rem;
+
+}
