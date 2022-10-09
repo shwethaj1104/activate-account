@@ -1,7 +1,7 @@
 <div class="container">
     <header class="header">
         <h4>Please enter your details below</h4>
-        <button class="btn-close">Close</button>
+        <button class="btn-close" (click)="activate()">Close</button>
     </header>
     <form [formGroup]="form" class="my-form">
         <label class="textLine" for="phone">Phone Number</label>
