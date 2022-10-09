@@ -2,9 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { PopUpComponent } from './pop-up/pop-up.component';
 import { MatDialog } from '@angular/material/dialog';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
