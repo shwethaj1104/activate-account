@@ -1,3 +1,3 @@
 # activate-account
 
-Run npm install and npm run after cloning the project
+Run npm install and npm start after cloning the project
